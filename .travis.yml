@@ -9,4 +9,3 @@ before_install:
 cache:
   directories:
     - "node_modules"
-group: deprecated-2017Q4
