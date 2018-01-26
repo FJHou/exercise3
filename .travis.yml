@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "8"
 before_install:
+  - head -n 1 /etc/issue
+  - sudo apt-get install google-chrome-stable
   - npm install -g karma-cli
 cache:
   directories:
