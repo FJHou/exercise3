@@ -4,5 +4,6 @@ node_js:
   - "7"
 before_script:
   - npm install -g karma-cli
+  - npm install
 script:
   - npm test
