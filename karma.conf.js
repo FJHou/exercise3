@@ -61,15 +61,15 @@ module.exports = function(config) {
     browsers: ['Chrome'],
 
     customLaunchers: {
-      Chrome_travis_ci: {
-        base: "Chrome",
+      ChromeHeadlessNoSandbox: {
+        base: "ChromeHeadless",
         flags: ["--no-sandbox"]
       }
     },
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
+    singleRun: true,
 
     // Concurrency level
     // how many browser should be started simultaneous
