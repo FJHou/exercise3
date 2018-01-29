@@ -61,12 +61,12 @@ module.exports = function(config) {
     browsers: ['Chrome'],
 
     // you can define custom flags
-    customLaunchers: {
-      ChromeHeadlessNoSandbox: {
-        base: 'ChromeHeadless',
-        flags: ['--no-sandbox']
-      }
-    },
+    // customLaunchers: {
+    //   ChromeHeadlessNoSandbox: {
+    //     base: 'ChromeHeadless',
+    //     flags: ['--no-sandbox']
+    //   }
+    // },
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
